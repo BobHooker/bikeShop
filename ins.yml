@@ -1,0 +1,18 @@
+
+---
+
+## How to push to GitHub
+
+```bash
+# Local terminal
+mkdir bike-sim && cd bike-sim
+git init
+echo "bike-sim" > README.md      # (or paste full README above)
+# create folders & files
+mkdir bike_sim
+# paste __init__.py and engine.py into bike_sim/
+
+git add .
+git commit -m "Initial bike-sim engine"
+git remote add origin https://github.com/<your-user>/bike-sim.git
+git push -u origin main
